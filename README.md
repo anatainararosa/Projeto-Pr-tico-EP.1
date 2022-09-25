@@ -1,2 +1,2 @@
-# Projeto-Pr-tico-EP.1
+# Projeto_Pratico_EP.1
 Repositório criado para a Disciplina Design Digital. 
