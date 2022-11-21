@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        {% block head %}
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="static/style.css">
+        {% endblock %}
+    </head>
+
+    <body>
+
+        {% block nav %}
+
+            <nav class="navegacao">
+                <img src="static/img/logo_AT.png">
+                <ul>
+                    <li><a href="/"> Home </a></li>
+                    <li><a href="/sobremim"> Sobre Mim </a></li>
+                    <li><a href="/portfolio"> Portfólio </a></li>
+                    <li><a href="/contatos"> Contatos </a></li>
+                </ul>
+            </nav>
+
+        {% endblock %}
+
+        <div>
+        {% block contents %}
+        {% endblock contents %}
+        </div>
+        {% block footer %}
+        <br>
+            <footer>
+                <p>Desenvolvido por Ana Tainara Rosa</p>
+            </footer>
+        {% endblock footer %}
+    
+    </body>
+</html>
